@@ -6,7 +6,7 @@
 
 - Whether we are moving to AWS or across regions within AWS, Application Migration Service simplicity the needs and provides the security measures require to win in today’s fast-paced digital era
 
-    <img src="images/image1.png" class="inline"/>
+    <img src="images/image1.png" class="inline" width="900" height="300"/>
 
 - Merits of Application Migration Service Live Migration include:
 
@@ -28,7 +28,7 @@
 
     1. Traverse to the <a href="https://console.aws.amazon.com/mgn/">AWS Application Migration Service</a> and click on Get Started 
 
-        <img src="images/image3.png" class="inline"/> 
+        <img src="images/image3.png" class="inline" width="800" height="500"/> 
            
     2. Next we will create a Replication Settings template, Specify details, fill the following fields and choose to Create template
       
@@ -42,7 +42,7 @@
 
         - Data routing and throttling limits
         
-        <img src="images/image4.png" class="inline"/> 
+        <img src="images/image4.png" class="inline" width="600" height="700"/> 
 
        Replication servers are lightweight EC2 instances that are used to replicate data between the source servers and AWS. They are automatically launched and terminated as needed. We can use data routing and throttling settings to control how data is routed from the source servers to the replication servers.
 
