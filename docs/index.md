@@ -4,23 +4,27 @@
 
 - AWS Application Migration Service allows migrating the critical workloads to AWS avoiding any interference, or data leakage. With continuous block-level replication, automated machine conversion, and application stack orchestration, Application Migration Service simplifies the migration process and minimizes the chance for human error.
 
-- Whether you are moving to AWS or across regions within AWS, Application Migration Service simplicity the needs and provides the security measures require to win in today’s fast-paced digital era
+- Whether we are moving to AWS or across regions within AWS, Application Migration Service simplicity the needs and provides the security measures require to win in today’s fast-paced digital era
 
     <img src="images/image1.png" class="inline"/>
 
 - Merits of Application Migration Service Live Migration include:
 
   - Cutover period of minutes and no data leakage
+  
   - 100% data integrity for all applications (including databases and legacy applications)
+  
   - Large-scale migrations with no performance degradation 
+  
   - Wide platform and source Operating Systems support
+  
   - Automated migration to reduce IT resources and project length
 
 - How AWS Application Migration Service Works? 
 
     <img src="images/image2.png" class="inline"/>
 
-- In this tutorial, we will focus on migrating a live server using AWS Application Migration Service
+- In this tutorial, we will focus on migrating a live machine using AWS Application Migration Service
 
     1. Traverse to the <a href="https://console.aws.amazon.com/mgn/">AWS Application Migration Service</a> and click on Get Started 
 
@@ -46,15 +50,15 @@
      
         <img src="images/image5.png" class="inline"/> 
      
-     4. Next we will add source servers to AWS Application Migration Service, install the AWS Application Migration Service Replication Agent on them. Download the agent installer with the wget command of the Linux source server. This wget command will download the Agent installer file - ``aws-replication-installer-init.py`` onto your server.
+     4. Next we will add source servers to AWS Application Migration Service, install the AWS Application Migration Service Replication Agent on them. Download the agent installer with the wget command of the Linux source server. This wget command will download the Agent installer file - ``aws-replication-installer-init.py`` onto the server.
         
         The Agent installer follows the following format: 
         
         ``https://aws-application-migration-service-<region>.s3.amazonaws.com/latest/linux/aws-replication-installer-init.py``
         
-        Replace <region> with the AWS Region into which you are replicating, and the following is an example of the full wget command for us-east-1:
+        Replace <region> with the AWS Region into which we are replicating, and the following is an example of the full wget command for us-east-2:
 
-        ``wget -O ./aws-replication-installer-init.py https://aws-application-migration-service-us-east-1.s3.amazonaws.com/latest/linux/aws-replication-installer-init.py``
+        ``wget -O ./aws-replication-installer-init.py https://aws-application-migration-service-us-east-2.s3.amazonaws.com/latest/linux/aws-replication-installer-init.py``
 
         The command line will indicate when the installer has been successfully downloaded
   
@@ -72,7 +76,7 @@
   
         <img src="images/image9.png" class="inline"/> 
 
-     8. After we have added the source servers and configured their launch settings, we must test the migration of the source servers to AWS before we initiate a cutover, to verify that your source servers function properly in the AWS environment. To launch a test or cutover instance for a single source server or multiple source servers, on the Source Servers page, select the checkbox for each server for which you want to launch a test instance
+     8. After we have added the source servers and configured their launch settings, we must test the migration of the source servers to AWS before we initiate a cutover, to verify that the source servers function properly in the AWS environment. To launch a test or cutover instance for a single source server or multiple source servers, on the Source Servers page, select the checkbox for each server for which we want to launch a test instance
   
         <img src="images/image10.png" class="inline"/> 
   
