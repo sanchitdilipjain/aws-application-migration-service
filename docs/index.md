@@ -97,5 +97,7 @@
     12. After the cutover action is performed, the server is considered migrated, and this will change the source servers’ migration lifecycle status to Cutover complete, indicating that the cutover is complete and that the migration has been performed successfully
         
         <img src="images/image15.png" class="inline"/>
+    
+        <img src="images/image16.png" class="inline"/>
 
 **Note:** If we encounter any issues and want to launch new test or cutover instances, we can revert the test or cutover action. This will revert the source servers lifecycle status to the previous stage, indicating that these servers have not undergone cutover
